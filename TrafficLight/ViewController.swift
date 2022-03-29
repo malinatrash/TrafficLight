@@ -27,9 +27,9 @@ class ViewController: UIViewController {
         
         startButton.layer.cornerRadius = 25
         
-        redLightView.layer.cornerRadius = 90
-        yellowLightView.layer.cornerRadius = 90
-        greenLightView.layer.cornerRadius = 90
+        redLightView.layer.cornerRadius = redLightView.frame.height / 2
+        yellowLightView.layer.cornerRadius = yellowLightView.frame.height / 2
+        greenLightView.layer.cornerRadius = greenLightView.frame.height / 2
     }
 
 
